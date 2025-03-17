@@ -1,0 +1,19 @@
+Part Number: Tension-Deflection
+Model Number: 22
+Free Length: 50 mm
+
+--- Test Sequence ---
+ZF - Zero Force | details: {'info': 'Zero Force'}
+TH - Threshold (Search Contact) | details: {'next': 'Search Contact', 'force': '10 N', 'value': 'N'}
+FL(P) - Measure Free Length | details: {'info': 'Measure Free Length-Position'}
+Mv(P) - Move to Position | details: {'next': 'Move to Position', 'pos_val': '=(R02+10)', 'unit': 'mm', 'target': '50'}
+Mv(P) - Move to Position | details: {'next': 'Move to Position', 'pos_val': '50', 'unit': 'mm', 'target': '50'}
+Scrag - Scragging | details: {'info': 'Scragging'}
+Mv(P) - Move to Position | details: {'next': 'Move to Position', 'pos_val': '45', 'unit': 'mm', 'target': '50'}
+TH - Threshold (Search Contact) | details: {'next': 'Search Contact', 'force': '10 N', 'value': 'N'}
+FL(P) - Measure Free Length | details: {'info': 'Measure Free Length-Position'}
+Mv(P) - Move to Position | details: {'next': 'Move to Position', 'pos_val': '=(R08+10)', 'unit': 'mm', 'target': '50'}
+Fr(P) - Force at Position | details: {'value': 'Force @ Position'}
+TD - Time Delay | details: {'duration': 'Time Delay', 'unit': '1'}
+Mv(P) - Move to Position | details: {'next': 'Move to Position', 'pos_val': '45', 'unit': 'mm', 'target': '50'}
+PMsg - User Message | details: {'message': 'User Message'}

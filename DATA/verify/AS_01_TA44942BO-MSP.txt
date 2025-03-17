@@ -1,0 +1,23 @@
+Part Number: TA44942BO-MSP
+Model Number: Tension Spring
+Free Length: 151 mm
+
+--- Test Sequence ---
+ZF - Zero Force
+TH - Search Contact: 1 kgf, Value: 10
+FL(P) - Measure Free Length-Position: Mv(P) 151(145,160)
+Mv(P) - L2: 180 mm, Target: 400
+Mv(P) - Move to Position: 150 mm, Target: 400
+LP - Loop: R03,2
+Mv(P) - Move to Position: 150 mm, Target: 100
+Mv(P) - L1: 170 mm, Target: 100
+Fr(P) - L1-Force: 150(140,210)
+Mv(P) - L2: 180 mm, Target: 100
+Fr(P) - L2-Force: 250(220,290)
+Mv(P) - L1: 170 mm, Target: 100
+Fr(P) - Force @ Position: 150(140,210)
+Mv(P) - L2: 180 mm, Target: 100
+Fr(P) - Force @ Position: 250(220,290)
+TD - Time Delay: 1 Sec
+Mv(P) - Move to Position: 143 mm, Target: 300
+PMsg - User Message: Test Complete

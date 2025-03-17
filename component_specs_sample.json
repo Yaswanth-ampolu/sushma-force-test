@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "Part Number": "C-SPRING",
+    "Model Number": "2022",
+    "Free Length": "120 mm"
+  },
+  "Component Specifications": [
+    {
+      "SI No": "SI No",
+      "Parameter": "Parameter",
+      "Unit": "Unit",
+      "Value": "Value"
+    },
+    {
+      "SI No": "1",
+      "Parameter": "Part Number",
+      "Unit": "--",
+      "Value": "C-SPRING"
+    },
+    {
+      "SI No": "2",
+      "Parameter": "Model Number",
+      "Unit": "--",
+      "Value": "2022"
+    },
+    {
+      "SI No": "3",
+      "Parameter": "Free Length",
+      "Unit": "mm",
+      "Value": "120"
+    }
+  ],
+  "Test Sequence": []
+} 

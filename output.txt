@@ -1,0 +1,17 @@
+=== SPRING TEST FILE DECODED DATA ===
+
+=== COMPONENT SPECIFICATIONS ===
+SI No     Parameter                     Unit      Value               
+----------------------------------------------------------------------
+
+
+=== TEST SEQUENCE ===
+Row       CMD       Description                   Condition           Unit      Tolerance           Speed     
+----------------------------------------------------------------------------------------------------
+R00       Mv(P)     Move to Position              (                   Move                                    
+R01       Mv(P)     Move to Position              123                 Home                                    
+R02       Mv(P)     Move to Position              1                   L                                       
+R03       Fr(P)     Force at Position             1                   F                                       
+R04       Mv(P)     Move to Position              2                   L                                       
+R05       Fr(P)     Force at Position             2                   F                                       
+R06       Mv(P)     Move to Position                                                                          

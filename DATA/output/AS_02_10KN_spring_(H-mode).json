@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "Part Number": "10KN spring (H-mode)",
+    "Force Unit": "N"
+  },
+  "parameters": [],
+  "test_sequence": [
+    {
+      "Row": "R00",
+      "Command": "ZF",
+      "Description": "Tare force",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R01",
+      "Command": "TH",
+      "Description": "Threshold",
+      "Condition": "5",
+      "Unit": "N",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R02",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R03",
+      "Command": "mm",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R04",
+      "Command": "Mv(P)",
+      "Description": "Move to Position",
+      "Condition": "94",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R05",
+      "Command": "100",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R06",
+      "Command": "mm",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R07",
+      "Command": "200",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R08",
+      "Command": "Mv(P)",
+      "Description": "L1",
+      "Condition": "105.7",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R09",
+      "Command": "100",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R10",
+      "Command": "N",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R11",
+      "Command": "TD",
+      "Description": "Time Delay",
+      "Condition": "3",
+      "Unit": "Sec",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R12",
+      "Command": "Mv(P)",
+      "Description": "L2",
+      "Condition": "95.7",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R13",
+      "Command": "100",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R14",
+      "Command": "N",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R15",
+      "Command": "Mv(P)",
+      "Description": "Home position",
+      "Condition": "123",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R16",
+      "Command": "100",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R17",
+      "Command": "PMsg",
+      "Description": "User Message",
+      "Condition": "SUCCESS",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "Part Number": "Tension-Deflection",
+  "Model Number": "22",
+  "Free Length": "50 mm",
+  "Test Sequence": [
+    {
+      "command": "ZF",
+      "description": "Zero Force",
+      "details": {
+        "info": "Zero Force"
+      }
+    },
+    {
+      "command": "TH",
+      "description": "Threshold (Search Contact)",
+      "details": {
+        "next": "Search Contact",
+        "force": "10 N",
+        "value": "N"
+      }
+    },
+    {
+      "command": "FL(P)",
+      "description": "Measure Free Length",
+      "details": {
+        "info": "Measure Free Length-Position"
+      }
+    },
+    {
+      "command": "Mv(P)",
+      "description": "Move to Position",
+      "details": {
+        "next": "Move to Position",
+        "pos_val": "=(R02+10)",
+        "unit": "mm",
+        "target": "50"
+      }
+    },
+    {
+      "command": "Mv(P)",
+      "description": "Move to Position",
+      "details": {
+        "next": "Move to Position",
+        "pos_val": "50",
+        "unit": "mm",
+        "target": "50"
+      }
+    },
+    {
+      "command": "Scrag",
+      "description": "Scragging",
+      "details": {
+        "info": "Scragging"
+      }
+    },
+    {
+      "command": "Mv(P)",
+      "description": "Move to Position",
+      "details": {
+        "next": "Move to Position",
+        "pos_val": "45",
+        "unit": "mm",
+        "target": "50"
+      }
+    },
+    {
+      "command": "TH",
+      "description": "Threshold (Search Contact)",
+      "details": {
+        "next": "Search Contact",
+        "force": "10 N",
+        "value": "N"
+      }
+    },
+    {
+      "command": "FL(P)",
+      "description": "Measure Free Length",
+      "details": {
+        "info": "Measure Free Length-Position"
+      }
+    },
+    {
+      "command": "Mv(P)",
+      "description": "Move to Position",
+      "details": {
+        "next": "Move to Position",
+        "pos_val": "=(R08+10)",
+        "unit": "mm",
+        "target": "50"
+      }
+    },
+    {
+      "command": "Fr(P)",
+      "description": "Force at Position",
+      "details": {
+        "value": "Force @ Position"
+      }
+    },
+    {
+      "command": "TD",
+      "description": "Time Delay",
+      "details": {
+        "duration": "Time Delay",
+        "unit": "1"
+      }
+    },
+    {
+      "command": "Mv(P)",
+      "description": "Move to Position",
+      "details": {
+        "next": "Move to Position",
+        "pos_val": "45",
+        "unit": "mm",
+        "target": "50"
+      }
+    },
+    {
+      "command": "PMsg",
+      "description": "User Message",
+      "details": {
+        "message": "User Message"
+      }
+    }
+  ]
+}

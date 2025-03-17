@@ -1,0 +1,18 @@
+1Part Number--SP-12345
+2Model Number--Test-Model-A
+3Free Lengthmm75
+<Test Sequence>
+ZFZero Force
+THSearch Contact5N
+FL(P)Measure Free Length-Positionmm	75(70,80)
+Mv(P)Move to Position60mm75
+ScragScraggingR05,3
+Mv(P)Move to Position70mm75
+THSearch Contact5N
+FL(P)Measure Free Length-Positionmm	75(70,80)
+Mv(P)Move to Position55mm75
+Fr(P)Force @ PositionN	45(40,50)
+Mv(P)Move to Position65mm75
+Fr(P)Force @ PositionN	60(55,65)
+Mv(P)Move to Position75mm75
+PMsgUser MessageTest Completed

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "Part Number": "C-SPRING",
+    "Model Number": "2022",
+    "Free Length": "120 mm",
+    "Force Unit": "lbf"
+  },
+  "Component Specifications": [
+    {
+      "SI No": "1",
+      "Parameter": "SI No",
+      "Unit": "",
+      "Value": ""
+    },
+    {
+      "SI No": "2",
+      "Parameter": "Parameter",
+      "Unit": "",
+      "Value": ""
+    },
+    {
+      "SI No": "3",
+      "Parameter": "Unit",
+      "Unit": "",
+      "Value": ""
+    },
+    {
+      "SI No": "4",
+      "Parameter": "Value",
+      "Unit": "",
+      "Value": ""
+    },
+    {
+      "SI No": "1",
+      "Parameter": "Part Number",
+      "Unit": "--",
+      "Value": "C-SPRING"
+    },
+    {
+      "SI No": "2",
+      "Parameter": "Model Number",
+      "Unit": "--",
+      "Value": "2022"
+    },
+    {
+      "SI No": "3",
+      "Parameter": "Free Length",
+      "Unit": "mm",
+      "Value": "120"
+    }
+  ],
+  "Test Sequence": []
+}

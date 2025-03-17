@@ -1,0 +1,68 @@
+{
+    "component_specifications": {},
+    "test_sequence": [
+        {
+            "Row": "R00",
+            "CMD": "Mv(P)",
+            "Description": "Move to Position",
+            "Condition": "(",
+            "Unit": "Move",
+            "Tolerance": "",
+            "Speed": ""
+        },
+        {
+            "Row": "R01",
+            "CMD": "Mv(P)",
+            "Description": "Move to Position",
+            "Condition": "123",
+            "Unit": "Home",
+            "Tolerance": "",
+            "Speed": ""
+        },
+        {
+            "Row": "R02",
+            "CMD": "Mv(P)",
+            "Description": "Move to Position",
+            "Condition": "1",
+            "Unit": "L",
+            "Tolerance": "",
+            "Speed": ""
+        },
+        {
+            "Row": "R03",
+            "CMD": "Fr(P)",
+            "Description": "Force at Position",
+            "Condition": "1",
+            "Unit": "F",
+            "Tolerance": "",
+            "Speed": ""
+        },
+        {
+            "Row": "R04",
+            "CMD": "Mv(P)",
+            "Description": "Move to Position",
+            "Condition": "2",
+            "Unit": "L",
+            "Tolerance": "",
+            "Speed": ""
+        },
+        {
+            "Row": "R05",
+            "CMD": "Fr(P)",
+            "Description": "Force at Position",
+            "Condition": "2",
+            "Unit": "F",
+            "Tolerance": "",
+            "Speed": ""
+        },
+        {
+            "Row": "R06",
+            "CMD": "Mv(P)",
+            "Description": "Move to Position",
+            "Condition": "",
+            "Unit": "",
+            "Tolerance": "",
+            "Speed": ""
+        }
+    ]
+}

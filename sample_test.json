@@ -1,0 +1,35 @@
+{
+  "Part Number": "Tension-Deflection",
+  "Model Number": "223",
+  "Free Length": "50 mm",
+  "Safety Limit": "300",
+  "Test Sequence": [
+    {
+      "row_id": "R01",
+      "command": "ZF",
+      "description": "Zero Force",
+      "condition": "",
+      "unit": "",
+      "tolerance": "",
+      "speed": ""
+    },
+    {
+      "row_id": "R02",
+      "command": "Scrag",
+      "description": "Scragging",
+      "condition": "",
+      "unit": "",
+      "tolerance": "",
+      "speed": ""
+    },
+    {
+      "row_id": "R03",
+      "command": "TD",
+      "description": "Time Delay",
+      "condition": "",
+      "unit": "",
+      "tolerance": "",
+      "speed": ""
+    }
+  ]
+}

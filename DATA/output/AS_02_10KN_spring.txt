@@ -1,0 +1,15 @@
+Part Number: 10KN spring
+Model Number: 2022
+Free Length: 120 mm
+
+--- Test Sequence ---
+FL(P) - Measured free length: Mv(P) 120(119,121)
+Mv(P) - Move to Position: =(R02-24.3) mm, Target: 100
+TH - Search Contact: 5 N, Value: 100
+FL(P) - Measure Free Length-Position: Mv(P) 120(119,121)
+Mv(P) - L1: =(R07-14.3) mm, Target: 100
+Fr(P) - F1: 2799(2659,2939)
+TD - Time Delay: 3 Sec
+Mv(P) - L2: =(R07-24.3) mm, Target: 100
+Fr(P) - F2: 4749(4512,4986)
+PMsg - User Message: SUCCESS

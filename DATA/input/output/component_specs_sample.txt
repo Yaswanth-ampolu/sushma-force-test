@@ -1,0 +1,11 @@
+Component Specifications:
+
+SI No | Parameter    | Unit | Value   
+--------------------------------
+1 | SI No        |    |         
+2 | Parameter    |    |         
+3 | Unit         |    |         
+4 | Value        |    |         
+1 | Part Number  | -- | C-SPRING
+2 | Model Number | -- | 2022    
+3 | Free Length  | mm | 120     

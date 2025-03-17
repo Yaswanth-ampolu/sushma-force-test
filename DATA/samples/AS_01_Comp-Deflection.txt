@@ -1,0 +1,19 @@
+Part Number: Comp-Deflection
+Model Number: 22
+Free Length: 50 mm
+
+--- Test Sequence ---
+ZF - Zero Force
+TH - Search Contact: 10 N, Value: 10
+FL(P) - Measure Free Length-before: Mv(P) 50(40,60)
+Mv(P) - Move to Position: =(R02-10) mm, Target: 50
+Mv(P) - Move to Position: 50 mm, Target: 50
+Scrag - Scragging: R03,2
+Mv(P) - Move to Position: 55 mm, Target: 50
+TH - Search Contact: 10 N, Value: 10
+FL(P) - Measure Free Length-Position: Mv(P) 50(40,60)
+Mv(P) - Move to Position: =(R08-10) mm, Target: 50
+Fr(P) - Force at Position: 30(20,260)
+TD - Time Delay: 1 Sec
+Mv(P) - Move to Position: 55 mm, Target: 50
+PMsg - User Message: Test Completed

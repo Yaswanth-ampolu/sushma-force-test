@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "Part Number": "Comp-Height",
+    "Force Unit": "N"
+  },
+  "parameters": [],
+  "test_sequence": [
+    {
+      "Row": "R00",
+      "Command": "ZF",
+      "Description": "Zero Force",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R01",
+      "Command": "TH",
+      "Description": "Search Contact",
+      "Condition": "10",
+      "Unit": "N",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R02",
+      "Command": "10",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R03",
+      "Command": "mm",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R04",
+      "Command": "Mv(P)",
+      "Description": "L1",
+      "Condition": "40",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R05",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R06",
+      "Command": "mm",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R07",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R08",
+      "Command": "Mv(P)",
+      "Description": "Move to Position",
+      "Condition": "55",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R09",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R10",
+      "Command": "N",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R11",
+      "Command": "10",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R12",
+      "Command": "mm",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R13",
+      "Command": "Mv(P)",
+      "Description": "Move to Position",
+      "Condition": "40",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R14",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R15",
+      "Command": "N",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R16",
+      "Command": "Mv(P)",
+      "Description": "L2",
+      "Condition": "30",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R17",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R18",
+      "Command": "N",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R19",
+      "Command": "Mv(P)",
+      "Description": "Move to Position",
+      "Condition": "55",
+      "Unit": "mm",
+      "Tolerance": "",
+      "Speed": ""
+    },
+    {
+      "Row": "R20",
+      "Command": "50",
+      "Description": "",
+      "Condition": "",
+      "Unit": "",
+      "Tolerance": "",
+      "Speed": ""
+    }
+  ]
+}
