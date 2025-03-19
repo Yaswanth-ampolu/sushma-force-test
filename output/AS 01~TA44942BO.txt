@@ -1,0 +1,126 @@
+=== SPRING TEST FILE DECODED DATA ===
+
+=== FILE INFORMATION ===
+file_name: AS 01~TA44942BO
+file_path: C:\Users\Seai_\Desktop\seai_workspace\sushma_force_test\DATA\AS 01~TA44942BO
+file_size: 866
+decode_time: 2025-03-18T10:48:08.982649
+decoded_by: LabVIEWDatabaseDecoder
+
+=== COMPONENT SPECIFICATIONS ===
+Parameter    | Value
+--------------+------------------------------
+Part Number  | TA44942BO
+Model Number | Tension Spring
+Free Length  | 151 mm
+
+=== TEST SEQUENCE ===
+Row  CMD     Description                 Condition                     Unit  Tolerance     Speed  
+--------------------------------------------------------------------------------------------------
+R00  kgf     kgf                         800                                                      
+R01  Height  Height                      800                                                      
+R02  ZF      Zero Force                  1                                                        
+R03  TH      Threshold (Search Contact)  10                            kgf                        
+R04  kgf     kgf                         Measure Free Length-Position  mm    FL(P)                
+R05  FL(P)   Measure Free Length         Measure Free Length-Position  mm    Mv(P)                
+R06  mm      mm                          180                                 Mv(P)                
+R07  Mv(P)   Move to Position            400                           mm                         
+R08  mm      mm                          150                                 Mv(P)                
+R09  Mv(P)   Move to Position            400                           mm                         
+R10  mm      mm                          R03,2                                                    
+R11  LP      Loop                        R03,2                               Mv(P)                
+R12  Loop    Loop                        150                                 Mv(P)                
+R13  Mv(P)   Move to Position            100                           mm                         
+R14  mm      mm                          170                                 Mv(P)                
+R15  Mv(P)   Move to Position            100                           mm                         
+R16  mm      mm                          L1-Force                      kgf   Fr(P)                
+R17  Fr(P)   Force at Position           L1-Force                      kgf   Mv(P)                
+R18  kgf     kgf                         180                                 Mv(P)                
+R19  Mv(P)   Move to Position            100                           mm                         
+R20  mm      mm                          L2-Force                      kgf   Fr(P)                
+R21  Fr(P)   Force at Position           L2-Force                      kgf   250(220,290)         
+R22  kgf     kgf                         1                                   250(220,290)         
+R23  TD      Time Delay                  1                                   Mv(P)                
+R24  Sec     Sec                         143                           mm    Mv(P)                
+R25  Mv(P)   Move to Position            300                           mm                         
+R26  mm      mm                          300                                                      
+R27  PMsg    User Message                                                                         
+
+=== RAW EXTRACTED STRINGS ===
+000: 1
+001: Part Number
+002: --
+003: TA44942BO
+004: 2
+005: Model Number
+006: --
+007: Tension Spring
+008: 3
+009: Free Length
+010: mm
+011: 151
+012: <Test Sequence>
+013: kgf
+014: --
+015: Height
+016: 300
+017: 800
+018: ZF
+019: Zero Force
+020: TH
+021: Search Contact
+022: 1
+023: kgf
+024: 10
+025: FL(P)
+026: Measure Free Length-Position
+027: mm
+028: 151(145,160)
+029: Mv(P)
+030: L2
+031: 180
+032: mm
+033: 400
+034: Mv(P)
+035: Move to Position
+036: 150
+037: mm
+038: 400
+039: LP
+040: Loop
+041: R03,2
+042: Mv(P)
+043: Move to Position
+044: 150
+045: mm
+046: 100
+047: Mv(P)
+048: L1
+049: 170
+050: mm
+051: 100
+052: Fr(P)
+053: L1-Force
+054: kgf
+055: 150(140,210)
+056: Mv(P)
+057: L2
+058: 180
+059: mm
+060: 100
+061: Fr(P)
+062: L2-Force
+063: kgf
+064: 250(220,290)
+065: TD
+066: Time Delay
+067: 1
+068: Sec
+069: Mv(P)
+070: Move to Position
+071: 143
+072: mm
+073: 300
+074: PMsg
+075: User Message
+076: Test Complete

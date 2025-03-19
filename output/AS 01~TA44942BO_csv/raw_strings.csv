@@ -1,0 +1,78 @@
+Index,Value
+0,1
+1,Part Number
+2,--
+3,TA44942BO
+4,2
+5,Model Number
+6,--
+7,Tension Spring
+8,3
+9,Free Length
+10,mm
+11,151
+12,<Test Sequence>
+13,kgf
+14,--
+15,Height
+16,300
+17,800
+18,ZF
+19,Zero Force
+20,TH
+21,Search Contact
+22,1
+23,kgf
+24,10
+25,FL(P)
+26,Measure Free Length-Position
+27,mm
+28,"151(145,160)"
+29,Mv(P)
+30,L2
+31,180
+32,mm
+33,400
+34,Mv(P)
+35,Move to Position
+36,150
+37,mm
+38,400
+39,LP
+40,Loop
+41,"R03,2"
+42,Mv(P)
+43,Move to Position
+44,150
+45,mm
+46,100
+47,Mv(P)
+48,L1
+49,170
+50,mm
+51,100
+52,Fr(P)
+53,L1-Force
+54,kgf
+55,"150(140,210)"
+56,Mv(P)
+57,L2
+58,180
+59,mm
+60,100
+61,Fr(P)
+62,L2-Force
+63,kgf
+64,"250(220,290)"
+65,TD
+66,Time Delay
+67,1
+68,Sec
+69,Mv(P)
+70,Move to Position
+71,143
+72,mm
+73,300
+74,PMsg
+75,User Message
+76,Test Complete

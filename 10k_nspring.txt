@@ -1,0 +1,136 @@
+=== SPRING TEST FILE DECODED DATA ===
+
+=== FILE INFORMATION ===
+file_name: AS 02~10KN spring
+file_path: C:\Users\yaswanth\Desktop\seai_workspace\sushma-force-test\DATA\AS 02~10KN spring
+file_size: 929
+decode_time: 2025-03-18T11:09:59.154163
+decoded_by: LabVIEWDatabaseDecoder
+customer_id: AS 02
+
+=== COMPONENT SPECIFICATIONS ===
+SI No    Parameter            Unit       Value               
+------------------------------------------------------------
+1        Part Number          --         10KN spring         
+2        Model Number         --         2022                
+3        Free Length          mm         120                 
+
+=== TEST SEQUENCE ===
+Row     CMD       Description              Condition      Unit    Tolerance      Speed   
+-----------------------------------------------------------------------------------------
+R00     N         N                        0                                     50      
+R01     Height    Height                   0                                     100     
+R02     ZF        Tare force               5                                     50      
+R03     TH        Threshold                50             N                      50      
+R04     Threshold Threshold                50             N       FL(P)          50      
+R05     N         N                        50             mm      FL(P)          200     
+R06     FL(P)     Measured free length                    mm      Mv(P)          50      
+R07     mm        mm                       =(R02-24.3)            Mv(P)          100     
+R08     Mv(P)     Move to Position         100            mm                     100     
+R09     mm        mm                       123                    Mv(P)          50      
+R10     Mv(P)     Move to Position         200            mm                     100     
+R11     mm        mm                       R03,2                                 200     
+R12     Scrag     scragging                R03,2                                 50      
+R13     TH        Threshold                100            N                      50      
+R14     N         N                        Measure Free Length-Positionmm      FL(P)          200     
+R15     FL(P)     Measured free length     Measure Free Length-Positionmm      Mv(P)          50      
+R16     mm        mm                       =(R07-14.3)            Mv(P)          100     
+R17     Mv(P)     Move to Position         100            mm                     100     
+R18     L1        L1                       100            mm      Fr(P)          100     
+R19     mm        mm                       100            N       Fr(P)          100     
+R20     Fr(P)     Force at Position                       N       2799(2659,2939)200     
+R21     F1        F1                                      N       2799(2659,2939)50      
+R22     N         N                        3                      2799(2659,2939)100     
+R23     TD        Time Delay               3              Sec     Mv(P)          200     
+R24     Sec       Sec                      =(R07-24.3)    mm      Mv(P)          50      
+R25     Mv(P)     Move to Position         100            mm                     100     
+R26     L2        L2                       100            mm      Fr(P)          100     
+R27     mm        mm                       100            N       Fr(P)          50      
+R28     Fr(P)     Force at Position                       N       Mv(P)          100     
+R29     N         N                        123                    Mv(P)          200     
+R30     Mv(P)     Move to Position         100            mm                     100     
+R31     mm        mm                       100                                   100     
+R32     PMsg      User Message                                                   200     
+
+=== RAW EXTRACTED STRINGS ===
+000: 1
+001: Part Number
+002: --
+003: 10KN spring
+004: 2
+005: Model Number
+006: --
+007: 2022
+008: 3
+009: Free Length
+010: mm
+011: 120
+012: <Test Sequence>
+013: N
+014: --
+015: Height
+016: 5600
+017: 0
+018: ZF
+019: Tare force
+020: TH
+021: Threshold
+022: 5
+023: N
+024: 50
+025: FL(P)
+026: Measured free length
+027: mm
+028: 120(119,121)
+029: Mv(P)
+030: Move to Position
+031: =(R02-24.3)
+032: mm
+033: 100
+034: Mv(P)
+035: Home position 
+036: 123
+037: mm
+038: 200
+039: Scrag
+040: scragging 
+041: R03,2
+042: TH
+043: Search Contact
+044: 5
+045: N
+046: 100
+047: FL(P)
+048: Measure Free Length-Position
+049: mm
+050: 120(119,121)
+051: Mv(P)
+052: L1
+053: =(R07-14.3)
+054: mm
+055: 100
+056: Fr(P)
+057: F1
+058: N
+059: 2799(2659,2939)
+060: TD
+061: Time Delay
+062: 3
+063: Sec
+064: Mv(P)
+065: L2
+066: =(R07-24.3)
+067: mm
+068: 100
+069: Fr(P)
+070: F2
+071: N
+072: 4749(4512,4986)
+073: Mv(P)
+074: Home position
+075: 123
+076: mm
+077: 100
+078: PMsg
+079: User Message
+080: SUCCESS

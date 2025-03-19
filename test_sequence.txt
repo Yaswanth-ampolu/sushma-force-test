@@ -1,0 +1,15 @@
+Part Number: THM0121536
+Model Number: Compression Spring
+Free Length: 315 mm
+
+--- Test Sequence ---
+ZF - Zero Force
+TH - Search Contact: 1 N, Value: 10
+FL(P) - Measure Free Length-Position: Mv(P) 315(314,322)
+Mv(P) - Move to Position: 315 mm, Target: 400
+Mv(P) - Move to Position: 320 mm, Target: 100
+Fr(P) - Force at Position: 35(30,50)
+Fr(P) - Force at Position: 70(60,80)
+TD - Time Delay: 1 Sec
+Mv(P) - Move to Position: 325 mm, Target: 300
+PMsg - User Message: Test Complete

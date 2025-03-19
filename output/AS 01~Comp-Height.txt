@@ -1,0 +1,133 @@
+=== SPRING TEST FILE DECODED DATA ===
+
+=== FILE INFORMATION ===
+file_name: AS 01~Comp-Height
+file_path: C:\Users\Seai_\Desktop\seai_workspace\sushma_force_test\DATA\AS 01~Comp-Height
+file_size: 950
+decode_time: 2025-03-18T10:50:21.262478
+decoded_by: LabVIEWDatabaseDecoder
+
+=== COMPONENT SPECIFICATIONS ===
+Parameter    | Value
+--------------+------------------------------
+Part Number  | Comp-Height
+Model Number | height Mode
+Free Length  | 50 mm
+
+=== TEST SEQUENCE ===
+Row  CMD        Description                 Condition                     Unit  Tolerance  Speed  
+--------------------------------------------------------------------------------------------------
+R00  N          N                           250                                                   
+R01  Height     Height                      250                                                   
+R02  ZF         Zero Force                  10                                                    
+R03  TH         Threshold (Search Contact)  10                            N                       
+R04  N          N                           Measure Free Length-Position  mm    FL(P)             
+R05  FL(P)      Measure Free Length         Measure Free Length-Position  mm    Mv(P)             
+R06  mm         mm                          40                                  Mv(P)             
+R07  Mv(P)      Move to Position            50                            mm                      
+R08  mm         mm                          50                                  Mv(P)             
+R09  Mv(P)      Move to Position            50                            mm                      
+R10  mm         mm                          R03,2                                                 
+R11  Scrag      Scragging                   R03,2                               Mv(P)             
+R12  Scragging  Scragging                   55                                  Mv(P)             
+R13  Mv(P)      Move to Position            50                            mm                      
+R14  mm         mm                          10                                                    
+R15  TH         Threshold (Search Contact)  10                            N                       
+R16  N          N                           Measure Free Length-Position  mm    FL(P)             
+R17  FL(P)      Measure Free Length         Measure Free Length-Position  mm    Mv(P)             
+R18  mm         mm                          40                                  Mv(P)             
+R19  Mv(P)      Move to Position            50                            mm                      
+R20  mm         mm                          50                            N     Fr(P)             
+R21  Fr(P)      Force at Position                                         N     Mv(P)             
+R22  N          N                           30                                  Mv(P)             
+R23  Mv(P)      Move to Position            50                            mm                      
+R24  mm         mm                          50                            N     Fr(P)             
+R25  Fr(P)      Force at Position                                         N     Mv(P)             
+R26  N          N                           55                                  Mv(P)             
+R27  Mv(P)      Move to Position            50                            mm                      
+R28  mm         mm                          50                                                    
+R29  PMsg       User Message                                                                      
+
+=== RAW EXTRACTED STRINGS ===
+000: 1
+001: Part Number
+002: --
+003: Comp-Height
+004: 2
+005: Model Number
+006: --
+007: height Mode
+008: 3
+009: Free Length
+010: mm
+011: 50
+012: <Test Sequence>
+013: N
+014: --
+015: Height
+016: 300
+017: 250
+018: ZF
+019: Zero Force
+020: TH
+021: Search Contact
+022: 10
+023: N
+024: 10
+025: FL(P)
+026: Measure Free Length-Position
+027: mm
+028: 50(40,60)
+029: Mv(P)
+030: L1
+031: 40
+032: mm
+033: 50
+034: Mv(P)
+035: Move to Position
+036: 50
+037: mm
+038: 50
+039: Scrag
+040: Scragging
+041: R03,2
+042: Mv(P)
+043: Move to Position
+044: 55
+045: mm
+046: 50
+047: TH
+048: Search Contact
+049: 10
+050: N
+051: 10
+052: FL(P)
+053: Measure Free Length-Position
+054: mm
+055: 50(40,60)
+056: Mv(P)
+057: Move to Position
+058: 40
+059: mm
+060: 50
+061: Fr(P)
+062: Force @ Position
+063: N
+064: 30(20,100)
+065: Mv(P)
+066: L2
+067: 30
+068: mm
+069: 50
+070: Fr(P)
+071: Force @ Position
+072: N
+073: 35(20,100)
+074: Mv(P)
+075: Move to Position
+076: 55
+077: mm
+078: 50
+079: PMsg
+080: User Message
+081: Test Completed
